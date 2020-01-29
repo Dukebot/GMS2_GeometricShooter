@@ -1,11 +1,5 @@
 event_inherited();
 
-/*enum enemyState {
-	moving,
-	waiting,
-	attacking
-}*/
-
 state = enemyState.moving;
 
 movingTime = 1*60;
@@ -17,3 +11,5 @@ size = 1;
 sizeIncrement = 0.01;
 
 randomDodge = choose(-1, 1);
+
+hitPoints = 3;

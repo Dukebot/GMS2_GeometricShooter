@@ -6,7 +6,3 @@ playerScore = oGame.playerScore;
 global.pause = true;
 instance_destroy(oPauseButton);
 statsUpdated = false;
-
-if (global.gamesPlayed % 5 == 0) {
-	admob_show_interstitial();
-}

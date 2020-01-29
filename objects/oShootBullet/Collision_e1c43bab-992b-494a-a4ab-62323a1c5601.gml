@@ -1,2 +1,4 @@
-with (other) instance_destroy();
+with (other) {
+	takeDamageEnemy();
+}
 instance_destroy();

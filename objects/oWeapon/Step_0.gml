@@ -14,9 +14,19 @@ if (fireCount < 0) {
 			ammo--;
 			fireCount = firerate;
 				
-			var shoot = instanceCreate(projectileObject, x, y);
-			shoot.Direction = point_direction(x, y, mouse_x, mouse_y);
-			shoot.Speed = projectileSpeed;
+			for (var i = 0; i < numShoots; i++) {
+				var shoot = instanceCreate(projectileObject, x, y);
+				shoot.Speed = projectileSpeed;
+				
+				if (i == 0) {
+					shoot.Direction = point_direction(x, y, mouse_x, mouse_y);
+				} else {					
+					shoot.Direction = point_direction(x, y, 
+						mouse_x + random_range(-dispersion, dispersion), 
+						mouse_y + random_range(-dispersion, dispersion)
+					);
+				}
+			}
 		}
 	}
 }

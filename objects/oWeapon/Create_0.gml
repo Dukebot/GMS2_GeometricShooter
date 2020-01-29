@@ -6,3 +6,6 @@ mouseKey = noone;
 
 fireCount = 0;
 objectToFollow = oPlayer;
+
+numShoots = 1;
+dispersion = 30;

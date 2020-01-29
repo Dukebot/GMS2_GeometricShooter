@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "6567102c-d911-4bdc-9ca2-c17c3e9b3d0a",
+            "Value": {
+                "id": "62052089-be91-4b4c-b61f-5a3721a3a8df",
+                "resourcePath": "objects\\oRestartButton\\oRestartButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "65808d51-556a-4070-87ae-0545efcca81b",
             "Value": {
                 "id": "1850a505-3811-4b74-b8f9-8fcabde0f517",
@@ -1282,7 +1290,7 @@
             "Key": "d0cf3211-7e11-47c7-b0ea-03280a7b9c0e",
             "Value": {
                 "id": "6584c6b1-52e2-459c-8996-eddbfe4f209d",
-                "resourcePath": "objects\\oPowerUpMachineGun\\oPowerUpMachineGun.yy",
+                "resourcePath": "objects\\oPowerUpMachineGunOld\\oPowerUpMachineGunOld.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1324,6 +1332,14 @@
                 "id": "5e229a54-bd2a-4c1e-9025-4da90cd565d6",
                 "resourcePath": "views\\df6dcffd-79af-436c-b448-ec428d42478a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "df83ac0f-9574-4e91-a926-af27561b8fd7",
+            "Value": {
+                "id": "9495085d-03df-417c-8129-ca4dd061d13d",
+                "resourcePath": "scripts\\takeDamageEnemy\\takeDamageEnemy.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1479,6 +1495,14 @@
             }
         },
         {
+            "Key": "f23097b0-6d8c-4a77-8d95-a79685e9fe77",
+            "Value": {
+                "id": "75276ee9-c09d-4542-b30e-6dd53d4746bb",
+                "resourcePath": "objects\\oPowerUpMachineGun\\oPowerUpMachineGun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f34f2b36-4226-4565-8d96-9164240cce5d",
             "Value": {
                 "id": "77404131-f7cb-465d-985e-f8d6194e3bd5",
@@ -1547,6 +1571,7 @@
         "b2191b10-2581-4bd4-8d9b-11ed719a61ef",
         "2945c0ed-61c0-46c8-9359-b3a3caa70119",
         "8a594110-e1c4-4f20-a684-9c7a0f542e61",
+        "df83ac0f-9574-4e91-a926-af27561b8fd7",
         "11f862f2-f8f3-434e-9f1a-4decfa03a508",
         "1b3f5e2a-b09a-44a5-8a22-8df61633de79",
         "3f6c96f9-d439-423f-b884-9520da1acbf7",

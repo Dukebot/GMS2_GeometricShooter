@@ -1,28 +1,38 @@
 {
-    "id": "d0cf3211-7e11-47c7-b0ea-03280a7b9c0e",
+    "id": "f23097b0-6d8c-4a77-8d95-a79685e9fe77",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "oPowerUpMachineGun",
     "eventList": [
         {
-            "id": "6612e55a-8939-4588-98ae-8b8121d7f1bc",
+            "id": "e10628de-a119-4a88-bd68-cc7628980501",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "592d34b9-435b-4acf-8fb1-54f167742c69",
             "enumb": 0,
             "eventtype": 4,
-            "m_owner": "d0cf3211-7e11-47c7-b0ea-03280a7b9c0e"
+            "m_owner": "f23097b0-6d8c-4a77-8d95-a79685e9fe77"
         },
         {
-            "id": "259aa8af-6ed0-4bb3-944f-499fa723e9a8",
+            "id": "139c13fa-8b2c-4e57-a393-66569a23c084",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "d0cf3211-7e11-47c7-b0ea-03280a7b9c0e"
+            "m_owner": "f23097b0-6d8c-4a77-8d95-a79685e9fe77"
+        },
+        {
+            "id": "83fb573c-3e42-49c8-9a81-e1eb942501c0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "f23097b0-6d8c-4a77-8d95-a79685e9fe77"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

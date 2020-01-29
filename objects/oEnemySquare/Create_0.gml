@@ -15,3 +15,5 @@ time = movingTime;
 
 size = 1;
 sizeIncrement = 0.01;
+
+hitPoints = 2;

@@ -1,0 +1,1 @@
+machineGunAmount = 60;
