@@ -2,7 +2,7 @@
     "id": "4b751267-390f-4392-9a3f-02c4ebc89ca2",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sCacodemonShoot",
+    "name": "sShootPlasmaBlue",
     "For3D": false,
     "HTile": false,
     "VTile": false,

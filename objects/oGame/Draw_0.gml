@@ -39,18 +39,7 @@ if (instance_exists(oPlayer)) {
 	}
 }
 
-
-
 draw_set_color(c_white);
-
-//GAME TIME MODE
-if (global.gameMode == GameMode.time) {
-	draw_set_font(-1);
-	draw_set_halign(fa_center);
-	
-	if gameWin  {draw_text(room_width/2, 300, "Game Win!");}
-	if gameLost {draw_text(room_width/2, 300, "Game Lost!");}
-}
 
 //DRAW SCORE
 var scoreFont = font_add_sprite_ext(sFontScore, "0123456789", true, 2);

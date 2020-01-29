@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "1f3df7e4-7075-45ee-89fd-e208a23814ba",
+            "Value": {
+                "id": "7fd313b3-8b0f-43c1-9ddd-e01ca086dca4",
+                "resourcePath": "views\\1f3df7e4-7075-45ee-89fd-e208a23814ba.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "20884195-3710-4f8d-95c2-36c942240739",
             "Value": {
                 "id": "5fc202e5-74fa-4bb4-bca7-d07e3b9dd4a8",
@@ -431,30 +439,6 @@
             }
         },
         {
-            "Key": "2e088610-8b04-4a92-bc60-f33b1ec07272",
-            "Value": {
-                "id": "de335b79-ed68-46e5-b07e-a061ebd32143",
-                "resourcePath": "objects\\oNoButtonRewardedVideo\\oNoButtonRewardedVideo.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "2fdef053-bd98-4b5e-99bf-71f168cd84e7",
-            "Value": {
-                "id": "c4770375-fd0b-41b1-a041-f85c2ce84445",
-                "resourcePath": "objects\\oAchievementsButton\\oAchievementsButton.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "302e5ef1-77eb-4101-aa83-000490611d2e",
-            "Value": {
-                "id": "f6a956ba-e3bd-40d9-8ed1-cd77ee6ccf6a",
-                "resourcePath": "objects\\oSensitivity\\oSensitivity.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "30f95f7a-77aa-45f5-8247-a0aead72972e",
             "Value": {
                 "id": "919bee7f-e2ee-4d54-a422-d9b9d52084b9",
@@ -500,14 +484,6 @@
                 "id": "76484061-8b04-42b8-b53b-3cb0da613c1a",
                 "resourcePath": "sprites\\sStarEffect\\sStarEffect.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "3cf4095e-6142-465d-80d7-421c20ca12f2",
-            "Value": {
-                "id": "a72a4fa9-5d7c-4149-8888-ed6f5ad49e88",
-                "resourcePath": "objects\\oEnemyDoomSkull\\oEnemyDoomSkull.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -602,16 +578,8 @@
             "Key": "4b751267-390f-4392-9a3f-02c4ebc89ca2",
             "Value": {
                 "id": "3c843115-bf64-4d78-9b92-d87b08463b9e",
-                "resourcePath": "sprites\\sCacodemonShoot\\sCacodemonShoot.yy",
+                "resourcePath": "sprites\\sShootPlasmaBlue\\sShootPlasmaBlue.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "4bddbe86-e4cf-499e-8707-f68a958491f1",
-            "Value": {
-                "id": "ac5b144d-bad7-4aea-8f38-705a40f17731",
-                "resourcePath": "objects\\oYesButtonRewardedVideo\\oYesButtonRewardedVideo.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -628,14 +596,6 @@
                 "id": "c14c5a14-6162-488f-9a2e-f3dbe3cc4ef5",
                 "resourcePath": "sprites\\sSettingsButton\\sSettingsButton.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "4f185ee2-0530-45bf-a44a-85474acf7821",
-            "Value": {
-                "id": "4fb4e67c-a7c9-4cc0-910e-0d3ed1147e1d",
-                "resourcePath": "objects\\oGetReady\\oGetReady.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -668,14 +628,6 @@
                 "id": "7002f196-4b74-4306-8950-4b23708a6f60",
                 "resourcePath": "sprites\\sYesButton\\sYesButton.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "536bf942-fca7-41bc-ab29-331923273454",
-            "Value": {
-                "id": "72f2e27b-d71d-438c-a947-8e1634d4ee4d",
-                "resourcePath": "objects\\oEnemyCacodemonShoot\\oEnemyCacodemonShoot.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -740,14 +692,6 @@
                 "id": "653aa62b-4d74-4137-b9b6-9ea8e171e6cc",
                 "resourcePath": "sprites\\sRestartButton\\sRestartButton.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6567102c-d911-4bdc-9ca2-c17c3e9b3d0a",
-            "Value": {
-                "id": "0c05668d-59ed-4f4f-b20f-6ab60ba623a3",
-                "resourcePath": "objects\\oRestartButton\\oRestartButton.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -855,14 +799,6 @@
             }
         },
         {
-            "Key": "84c8712a-3bdb-40b9-b561-923d1987cfcb",
-            "Value": {
-                "id": "ca982670-61a2-4dcb-9f99-7e608396d765",
-                "resourcePath": "objects\\oArrow\\oArrow.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "8570f986-b09e-4b2b-8743-b43f30886fac",
             "Value": {
                 "id": "0de689f4-0867-494d-afc0-6249f88d28bd",
@@ -887,14 +823,6 @@
             }
         },
         {
-            "Key": "882b50ed-8a00-4194-b32f-fc4cb17d9189",
-            "Value": {
-                "id": "d043b6fd-ca54-4b9b-9799-5253c8b04ac6",
-                "resourcePath": "objects\\oScoreButton\\oScoreButton.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "88613a0d-d27d-4834-a88e-01b37fd1fd0d",
             "Value": {
                 "id": "50e2cf24-ea9c-4ad3-b1a5-94674828fba9",
@@ -908,14 +836,6 @@
                 "id": "229f429c-8bdf-44d3-a96c-46ea00bb378b",
                 "resourcePath": "views\\888fb10a-071f-4589-afcd-3debef60e285.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "891b7942-80b2-492f-b501-d30e8945d03f",
-            "Value": {
-                "id": "ed86cbbf-afb8-48ab-b685-299a2d431ef3",
-                "resourcePath": "objects\\oRevive\\oRevive.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -963,14 +883,6 @@
             "Value": {
                 "id": "84d5fb69-4fb3-4d94-bb16-843b77e5af02",
                 "resourcePath": "views\\8ef058da-c074-4e59-9167-ef4b4648f6ec.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "906336ad-3340-4570-8119-b2a433cc371d",
-            "Value": {
-                "id": "e2f967c9-bb98-462b-a761-de86d45dfcd5",
-                "resourcePath": "views\\906336ad-3340-4570-8119-b2a433cc371d.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1223,14 +1135,6 @@
             }
         },
         {
-            "Key": "b54503d1-c1bf-48eb-9204-f90bd694a0fc",
-            "Value": {
-                "id": "a248d337-7bde-4adf-98d7-ebb76888222c",
-                "resourcePath": "objects\\oEnemyShoot\\oEnemyShoot.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "b5ec7732-394a-4438-bbfc-bcc151250e67",
             "Value": {
                 "id": "b3ab4a29-0f06-4454-8d98-b709ed22d731",
@@ -1367,14 +1271,6 @@
             }
         },
         {
-            "Key": "cda6aec9-39ba-417a-82b9-035472cd3621",
-            "Value": {
-                "id": "4a07285c-3baa-4ac1-9384-90d5c705126e",
-                "resourcePath": "objects\\oSettingsButton\\oSettingsButton.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "cf27702b-c13f-4c49-a36f-6f7f81857397",
             "Value": {
                 "id": "8888f69c-8109-4f13-8ef5-19e0ff58560f",
@@ -1396,14 +1292,6 @@
                 "id": "17525518-2546-42c0-965b-5f8c3b55fb30",
                 "resourcePath": "views\\d1aceceb-45d9-4b1e-a63d-c0a45290ef5e.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "d5b1fdad-0dab-4a59-a4df-5acfe66aa965",
-            "Value": {
-                "id": "baf8cf08-4ba7-486c-8f6d-480b064a2c55",
-                "resourcePath": "objects\\oChallengesButton\\oChallengesButton.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -1535,14 +1423,6 @@
             }
         },
         {
-            "Key": "e6a22c53-ac03-460a-901e-2f51f69a38b1",
-            "Value": {
-                "id": "836c6651-4bbe-4e95-88aa-c59702ddff45",
-                "resourcePath": "objects\\oChallengeTimeButton\\oChallengeTimeButton.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "e77af3c5-0549-48a4-8f1d-3525c1dbc4d5",
             "Value": {
                 "id": "ca0655bf-20d9-43e6-9fe3-33b7827d0335",
@@ -1580,14 +1460,6 @@
                 "id": "1817a21f-f775-47cf-adee-44cf87b0c270",
                 "resourcePath": "sprites\\sEnemy2\\sEnemy2.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "ed36ef57-609f-4ba8-a042-07cadc26cd90",
-            "Value": {
-                "id": "bae513e6-e093-4dea-a584-e6d668fe10da",
-                "resourcePath": "rooms\\rSettings\\rSettings.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
