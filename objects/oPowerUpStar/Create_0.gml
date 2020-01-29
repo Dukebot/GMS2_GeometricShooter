@@ -1,0 +1,1 @@
+effectDuration = 10*60;
