@@ -13,7 +13,7 @@ Speed = 0;
 Direction = 0;
 //acceleration = 1;
 
-machineGun = createWeapon(oShootBullet, 16, 16, 9999, mb_left);
-plasmaGun = createWeapon(oShootPlasma, 30, 12, 40, mb_right);
+machineGun = createWeapon(oShootBullet, 12, 16, 999999, mb_left);
+plasmaGun = createWeapon(oShootPlasma, 60, 12, 10, mb_right);
 
 bombs = 3;

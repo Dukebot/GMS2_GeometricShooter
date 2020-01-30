@@ -26,14 +26,14 @@ if (instance_exists(oPlayer)) {
 			var scaleX = 1;
 			var scaleY = 1;
 			
-			draw_sprite(sPowerUpShoot, 0, spriteStartX, startY + incrementY*0);
-			draw_text_transformed(textStartX, startY + incrementY*0 + textMarginY, string(machineGun.ammo), scaleX, scaleY, 0);
+			//draw_sprite(sPowerUpShoot, 0, spriteStartX, startY + incrementY*0);
+			//draw_text_transformed(textStartX, startY + incrementY*0 + textMarginY, string(machineGun.ammo), scaleX, scaleY, 0);
 	
-			draw_sprite(sPowerUpPlasma, 0, spriteStartX, startY + incrementY*1);
-			draw_text_transformed(textStartX, startY + incrementY*1 + textMarginY, string(plasmaGun.ammo), scaleX, scaleY, 0);
+			draw_sprite(sPowerUpPlasma, 0, spriteStartX, startY + incrementY*0);
+			draw_text_transformed(textStartX, startY + incrementY*0 + textMarginY, string(plasmaGun.ammo), scaleX, scaleY, 0);
 	
-			draw_sprite(sPowerUpBomb, 0, spriteStartX, startY + incrementY*2);
-			draw_text_transformed(textStartX, startY +incrementY*2 +textMarginY, string(bombs), scaleX, scaleY, 0);
+			draw_sprite(sPowerUpBomb, 0, spriteStartX, startY + incrementY*1);
+			draw_text_transformed(textStartX, startY + incrementY*1 + textMarginY, string(bombs), scaleX, scaleY, 0);
 		}
 		font_delete(scoreFont);
 	}

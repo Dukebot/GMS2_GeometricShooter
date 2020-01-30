@@ -1,1 +1,1 @@
-plasmaGunAmount = 20;
+plasmaGunAmount = 10;

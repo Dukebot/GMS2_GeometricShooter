@@ -6,15 +6,13 @@ if (pUpSpawnCooldown < 0) {
 	pUpSpawnCooldown = pUpSpawnRate;
 	
 	var powerUpObj = choose(
-		oPowerUpMachineGun, 
-		oPowerUpMachineGun, 
 		oPowerUpPlasma, 
 		oPowerUpPlasma, 
 		oPowerUpBomb, 
 		oPowerUpBomb, 
 		oPowerUpExtraLife,
 		oPowerUpExtraLife,
-		oPowerUpShield			
+		oPowerUpShield,		
 	);
 	
 	var spawnPos = getPowerUpSpawnPos();
@@ -35,6 +33,7 @@ if (pUpSpecialSpawnCooldown < 0) {
 		oPowerUpHaste,
 		oPowerUpProjectileImprovement, 
 		oPowerUpStar, 
+		oPowerUpMachineGun,
 	);
 	
 	var spawnPos = getPowerUpSpawnPos();

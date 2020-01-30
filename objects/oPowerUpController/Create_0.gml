@@ -1,4 +1,4 @@
-pUpSpawnRate = 8*60;
+pUpSpawnRate = 10*60;
 pUpSpawnRateInc = 1;
 pUpSpawnCooldown = pUpSpawnRate;
 
