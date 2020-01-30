@@ -1,6 +1,6 @@
 //With star we are invincible and destroy the enemy
 if (star or hit) {
-	//Do nothing if star, just destror the other item
+	//Do nothing if star, just destroy the other item
 
 //With shield we create a big explosion and lose the shield
 } else if (shield) {

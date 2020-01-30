@@ -11,7 +11,7 @@ enemy = choose(
 	oEnemyTriangle, 
 	oEnemyTriangleTeledirigido, 
 	oEnemySquare,
-	oEnemySquareElite
+	oEnemySquareElite,
 );
 var enemyTemp = instanceCreate(enemy);
 enemySpawnMargin = sprite_get_width(enemy.sprite_index)/2;

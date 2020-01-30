@@ -11,7 +11,6 @@ spacePressed = keyboard_check_pressed(vk_space);
 {
 	var directionX = (right - left);
 	var directionY = (down - up);
-
 	acceleration = maxSpeed/8;
 
 	if (directionX != 0 or directionY != 0) {

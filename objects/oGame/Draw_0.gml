@@ -8,36 +8,34 @@ for (var i = 0; i < playerLives; i++) {
 }
 
 //PLAYER INVENTORY
-if (instance_exists(oPlayer)) {
-	with (oPlayer) {
-		var scoreFont = font_add_sprite_ext(sFontScore, "0123456789", true, 2);
-		{
-			draw_set_font(scoreFont);
-			draw_set_halign(fa_left);
-			draw_set_valign(fa_center);
+if (instance_exists(oPlayer)) with (oPlayer) {
+	var scoreFont = font_add_sprite_ext(sFontScore, "0123456789", true, 2);
+	{
+		draw_set_font(scoreFont);
+		draw_set_halign(fa_left);
+		draw_set_valign(fa_center);
 			
-			var spriteStartX = 25;
-			var textStartX = 55;
+		var spriteStartX = 25;
+		var textStartX = 55;
 			
-			var startY = 75;
-			var incrementY = 50;
-			var textMarginY = 8;
+		var startY = 75;
+		var incrementY = 50;
+		var textMarginY = 8;
 			
-			var scaleX = 1;
-			var scaleY = 1;
-			
-			//draw_sprite(sPowerUpShoot, 0, spriteStartX, startY + incrementY*0);
-			//draw_text_transformed(textStartX, startY + incrementY*0 + textMarginY, string(machineGun.ammo), scaleX, scaleY, 0);
+		var scaleX = 1;
+		var scaleY = 1;
+				
+		draw_sprite(sPowerUpPlasma, 0, spriteStartX, startY + incrementY*0);
+		draw_text_transformed(textStartX, startY + incrementY*0 + textMarginY, 
+			string(plasmaGun.ammo), scaleX, scaleY, 0);
 	
-			draw_sprite(sPowerUpPlasma, 0, spriteStartX, startY + incrementY*0);
-			draw_text_transformed(textStartX, startY + incrementY*0 + textMarginY, string(plasmaGun.ammo), scaleX, scaleY, 0);
-	
-			draw_sprite(sPowerUpBomb, 0, spriteStartX, startY + incrementY*1);
-			draw_text_transformed(textStartX, startY + incrementY*1 + textMarginY, string(bombs), scaleX, scaleY, 0);
-		}
-		font_delete(scoreFont);
+		draw_sprite(sPowerUpBomb, 0, spriteStartX, startY + incrementY*1);
+		draw_text_transformed(textStartX, startY + incrementY*1 + textMarginY, 
+			string(bombs), scaleX, scaleY, 0);
 	}
+	font_delete(scoreFont);
 }
+
 
 draw_set_color(c_white);
 

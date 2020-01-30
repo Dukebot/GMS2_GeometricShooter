@@ -16,6 +16,7 @@ time = 0;
 level = 1;
 levelUpFrec = 10*60;
 
+//TODO move to the player
 playerLives = 3;
 playerEnemiesKilled = 0;
 playerScore = 0;

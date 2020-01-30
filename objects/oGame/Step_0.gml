@@ -1,5 +1,5 @@
 //GAME LOST LOGIC
-if (instance_number(oPlayer) == 0) {
+if (not instance_exists(oPlayer)) {
 	global.pause = true;
 	if (not instance_exists(oGameOver)) {
 		instanceCreate(oGameOver);
@@ -21,10 +21,6 @@ if (time > level*levelUpFrec) {
 		enemySpeed += enemySpeedInc;
 		// enemies spawn faster
 		enemySpawnRate *= enemySpawnRateInc;
-	}
-	with (powerUpSpawner) {
-		// power ups spawn faster
-		pUpSpawnRate *= pUpSpawnRateInc;
 	}
 }
 	
