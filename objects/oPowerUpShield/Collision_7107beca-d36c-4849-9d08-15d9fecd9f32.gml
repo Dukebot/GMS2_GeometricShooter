@@ -1,3 +1,5 @@
-oPlayer.shield = true;
-audio_play_sound(sndPUpPickup, 0, false);
-instance_destroy();
+if (not oPlayer.shield) {
+	oPlayer.shield = true;
+	audio_play_sound(sndPUpPickup, 0, false);
+	instance_destroy();
+}
