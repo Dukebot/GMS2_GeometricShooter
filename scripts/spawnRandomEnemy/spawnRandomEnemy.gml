@@ -4,20 +4,16 @@ var enemySpawnMargin = 0;
 
 //var enemies = [oEnemy1, oEnemy2, oEnemy3, oEnemy4, oCacodemon];
 enemy = choose(
-	oEnemy1, 
-	oEnemy1, 
-	oEnemy2, 
-	oEnemy2, 
-	oEnemy3, 
-	oEnemy3, 
-	oEnemy4, 
-	oEnemy4, 
-	oEnemyTriangle, 
-	oEnemyTriangle, 
-	oEnemyTriangleTeledirigido, 
-	oEnemyTriangleTeledirigido, 
+	oEnemy1, oEnemy1, oEnemy1, 
+	oEnemy2, oEnemy2, oEnemy2, 
+	oEnemy3, oEnemy3, 
+	oEnemy4, oEnemy4, 
+	oEnemyTriangle, oEnemyTriangle, oEnemyTriangle, 
+	oEnemyTriangleTeledirigido, oEnemyTriangleTeledirigido, 
 	oEnemySquare,
 	oEnemySquareElite,
+	oEnemyPentagon,
+	oEnemyHexagon,
 );
 var enemyTemp = instanceCreate(enemy);
 enemySpawnMargin = sprite_get_width(enemy.sprite_index)/2;
