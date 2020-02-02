@@ -13,23 +13,29 @@ if (state == enemyState.moving) {
 		state = enemyState.waiting;
 		exit;
 	}
-	size -= sizeIncrement;
+	size -= sizeIncrement*3;
 	moveEnemy();
 } 
 else if (state == enemyState.waiting) {
 	//satate transition
 	if (time < 0) {
 		state = enemyState.attacking;
+		randomDodge = choose(-1, 1);
 		exit;
 	} 
 	size += sizeIncrement;
+	
+	if (canDodge) {
+		Direction += 90*randomDodge;
+		moveEnemy();
+	}
 } 
 else if (state == enemyState.attacking) {	
 	var enemy = instanceCreate(oEnemyTriangle);
 	enemy.x = x;
 	enemy.y = y;
 	enemy.Direction = Direction;
-	enemy.Speed = 8;
+	enemy.Speed = 6;
 		
 	//satate transition
 	shootsShooted++;

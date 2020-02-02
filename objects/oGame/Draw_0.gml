@@ -63,4 +63,12 @@ if (global.debug) {
 	draw_text(margin, marginY+margin*3, "Kills " + string(playerEnemiesKilled));
 	draw_text(margin, marginY+margin*4, "Enemy Speed " + string(enemySpawner.enemySpeed));
 	draw_text(margin, marginY+margin*5, "Enemy SpawnRate (s) " + string(enemySpawner.enemySpawnRate/60));
+	
+	with (oEnemyController) {
+		draw_text(margin, marginY+margin*7, "Cercles " + string(cercles));
+		draw_text(margin, marginY+margin*8, "triangles " + string(triangles));
+		draw_text(margin, marginY+margin*9, "Squares " + string(squares));
+		draw_text(margin, marginY+margin*10, "Pentagons " + string(pentagons));
+		draw_text(margin, marginY+margin*11, "Hexagons " + string(hexagons));
+	}
 }

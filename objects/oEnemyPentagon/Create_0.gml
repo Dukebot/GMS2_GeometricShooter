@@ -7,9 +7,12 @@ state = enemyState.moving;
 time = movingTime;
 
 size = 1;
-sizeIncrement = 0;
+sizeIncrement = 0.01;
 
 numShoots = 3;
 shootsShooted = 0;
 
 hitPoints = 4;
+
+canDodge = false;
+randomDodge = choose(-1, 1);

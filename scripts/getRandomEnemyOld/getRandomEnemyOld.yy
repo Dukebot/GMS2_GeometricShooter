@@ -1,8 +1,8 @@
 {
-    "id": "1fdc4778-d242-4c1c-807b-c45f882a6bd0",
+    "id": "aee3bf8b-07fb-4968-9fcf-1ca91bda06ac",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "getRandomEnemy",
+    "name": "getRandomEnemyOld",
     "IsCompatibility": false,
     "IsDnD": false
 }

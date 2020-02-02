@@ -1,8 +1,8 @@
 {
-    "id": "1fdc4778-d242-4c1c-807b-c45f882a6bd0",
+    "id": "55ebf79e-b8c1-45f3-aea9-b6be6f7c16e8",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "getRandomEnemy",
+    "name": "drawEnemiesSpawnedInfo",
     "IsCompatibility": false,
     "IsDnD": false
 }

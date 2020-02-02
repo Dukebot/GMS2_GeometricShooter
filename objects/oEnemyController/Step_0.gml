@@ -4,6 +4,5 @@ if (global.pause) exit;
 enemySpawnCooldown--;
 if (enemySpawnCooldown < 0) {
 	enemySpawnCooldown = enemySpawnRate;
-	
 	spawnRandomEnemy();
 }
