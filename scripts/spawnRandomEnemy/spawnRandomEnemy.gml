@@ -3,18 +3,7 @@ var enemy = 0;
 var enemySpawnMargin = 0;
 
 //var enemies = [oEnemy1, oEnemy2, oEnemy3, oEnemy4, oCacodemon];
-enemy = choose(
-	oEnemy1, oEnemy1, oEnemy1, oEnemy1, 
-	oEnemy2, oEnemy2, oEnemy2, oEnemy2, 
-	oEnemy3, oEnemy3, oEnemy3, 
-	oEnemy4, oEnemy4, oEnemy4,
-	oEnemyTriangle, oEnemyTriangle, oEnemyTriangle, oEnemyTriangle,
-	oEnemyTriangleTeledirigido, oEnemyTriangleTeledirigido, oEnemyTriangleTeledirigido, 
-	oEnemySquare,
-	oEnemySquareElite,
-	oEnemyPentagon,
-	oEnemyHexagon,
-);
+enemy = getRandomEnemy();
 var enemyTemp = instanceCreate(enemy);
 enemySpawnMargin = sprite_get_width(enemy.sprite_index)/2;
 instance_destroy(enemyTemp);

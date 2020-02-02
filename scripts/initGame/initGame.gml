@@ -9,8 +9,13 @@ ini_close();
 enum GameMode {
 	arcade, time
 }
-global.gameMode = GameMode.arcade;
 
+//Simple enemy state machine
+enum enemyState {
+	moving, waiting, attacking
+}
+
+global.gameMode = GameMode.arcade;
 global.debug = false;
 global.pause = false;
 

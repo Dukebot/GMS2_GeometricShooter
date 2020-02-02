@@ -14,8 +14,7 @@ if (state == enemyState.moving) {
 		exit;
 	}
 	size -= sizeIncrement;
-	if (size < 1) size = 1;	
-	event_inherited();
+	moveEnemy();
 } 
 else if (state == enemyState.waiting) {
 	//satate transition
@@ -43,6 +42,8 @@ else if (state == enemyState.attacking) {
 		state = enemyState.waiting;
 	}
 }
+
+if (size < 1) size = 1;	
 
 image_angle = Direction;
 image_xscale = size;

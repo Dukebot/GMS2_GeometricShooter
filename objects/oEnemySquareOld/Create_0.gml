@@ -10,7 +10,4 @@ time = movingTime;
 size = 1;
 sizeIncrement = 0.01;
 
-canDodge = false;
-randomDodge = choose(-1, 1);
-
 hitPoints = 2;

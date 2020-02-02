@@ -1,11 +1,10 @@
 if (global.pause) exit;
 
+time--;
+
 if (instance_exists(oPlayer)) {
 	Direction = point_direction(x, y, oPlayer.x, oPlayer.y);
 }
-image_angle = Direction;
-
-time--;
 
 if (state == enemyState.moving) {
 	if (time < 0) {
@@ -14,15 +13,21 @@ if (state == enemyState.moving) {
 		exit;
 	}
 	size -= sizeIncrement;
-	if (size < 1) size = 1;
+	if (size < 1) size = 1;	
 	event_inherited();
 } 
 else if (state == enemyState.waiting) {
 	if (time < 0) {
 		state = enemyState.attacking;
+		randomDodge = choose(-1, 1);
 		exit;
 	} 
 	size += sizeIncrement;
+	
+	if (canDodge) {
+		Direction += 90*randomDodge;
+		moveEnemy();
+	}
 } 
 else if (state == enemyState.attacking) {	
 	var enemy = spawnRandomEnemy();
@@ -34,5 +39,8 @@ else if (state == enemyState.attacking) {
 	state = enemyState.moving;
 }
 
+image_angle = Direction;
 image_xscale = size;
 image_yscale = size;
+
+stayInRoom();

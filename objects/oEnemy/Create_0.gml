@@ -4,3 +4,5 @@ Speed = 0;
 Direction = random(360);
 
 hitPoints = 1;
+
+canBounce = false;

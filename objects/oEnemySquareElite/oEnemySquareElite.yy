@@ -5,17 +5,7 @@
     "name": "oEnemySquareElite",
     "eventList": [
         {
-            "id": "cc845d1f-af26-4e87-b781-49380a5d07a0",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "e3f08423-c30a-4c43-b59a-724a90ca0050"
-        },
-        {
-            "id": "d15f9c99-63f3-48c7-9645-615fe8044193",
+            "id": "bb34aab6-4b2a-49eb-a1b9-ea8da4266ae1",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -27,7 +17,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "bdc1dddf-7df6-42b8-be07-41c14c32574d",
+    "parentObjectId": "cee0bbbf-c7c2-43f9-bf06-6350307b0285",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

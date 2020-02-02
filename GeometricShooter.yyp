@@ -514,7 +514,7 @@
             "Key": "418ba437-48f7-41fa-8d56-0cf18f7bfc0d",
             "Value": {
                 "id": "e18f097e-a483-4f77-a3cb-566dd6bc19b6",
-                "resourcePath": "objects\\oEnemySquare\\oEnemySquare.yy",
+                "resourcePath": "objects\\oEnemySquareOld\\oEnemySquareOld.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1111,6 +1111,14 @@
             }
         },
         {
+            "Key": "aee3bf8b-07fb-4968-9fcf-1ca91bda06ac",
+            "Value": {
+                "id": "c5faef46-3c00-435d-8fb8-35cd981b1633",
+                "resourcePath": "scripts\\getRandomEnemy\\getRandomEnemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b016e07c-eeeb-4858-ac43-d745b1bd47bd",
             "Value": {
                 "id": "fbd3b42e-ae7f-4cc1-8e15-fc97d4a1ff6d",
@@ -1279,6 +1287,14 @@
             }
         },
         {
+            "Key": "c86cad6f-8a23-4990-8010-7305ac39c6c4",
+            "Value": {
+                "id": "494a976a-297c-4ea1-927d-3ad5c4e291d8",
+                "resourcePath": "scripts\\moveEnemy\\moveEnemy.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c90e54ca-b954-4b22-996e-9a269a3e75a9",
             "Value": {
                 "id": "c7e11813-4512-4647-b23a-a15908476233",
@@ -1308,6 +1324,14 @@
                 "id": "65d76b1c-3cd4-487a-83a7-72b5f96607f3",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cee0bbbf-c7c2-43f9-bf06-6350307b0285",
+            "Value": {
+                "id": "53c96182-4fde-4771-bf66-6a5d03e3216c",
+                "resourcePath": "objects\\oEnemySquare\\oEnemySquare.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1535,6 +1559,14 @@
             }
         },
         {
+            "Key": "f1ee8539-446d-4039-a92f-9879f44d75cc",
+            "Value": {
+                "id": "c3699880-f2e7-4942-9811-808729d82356",
+                "resourcePath": "scripts\\changeEnemyState\\changeEnemyState.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f23097b0-6d8c-4a77-8d95-a79685e9fe77",
             "Value": {
                 "id": "75276ee9-c09d-4542-b30e-6dd53d4746bb",
@@ -1612,7 +1644,10 @@
         "2945c0ed-61c0-46c8-9359-b3a3caa70119",
         "8a594110-e1c4-4f20-a684-9c7a0f542e61",
         "df83ac0f-9574-4e91-a926-af27561b8fd7",
+        "aee3bf8b-07fb-4968-9fcf-1ca91bda06ac",
         "d2621d3d-b20e-422d-aee3-5a71a1a434ef",
+        "c86cad6f-8a23-4990-8010-7305ac39c6c4",
+        "f1ee8539-446d-4039-a92f-9879f44d75cc",
         "11f862f2-f8f3-434e-9f1a-4decfa03a508",
         "1b3f5e2a-b09a-44a5-8a22-8df61633de79",
         "3f6c96f9-d439-423f-b884-9520da1acbf7",
