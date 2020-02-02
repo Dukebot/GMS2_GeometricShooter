@@ -7,6 +7,7 @@ if (instance_exists(oPlayer)) {
 }
 
 if (state == enemyState.moving) {
+	//satate transition
 	if (time < 0) {
 		time = waitingTime;
 		state = enemyState.waiting;
@@ -17,6 +18,7 @@ if (state == enemyState.moving) {
 	event_inherited();
 } 
 else if (state == enemyState.waiting) {
+	//satate transition
 	if (time < 0) {
 		state = enemyState.attacking;
 		exit;
@@ -30,6 +32,7 @@ else if (state == enemyState.attacking) {
 	enemy.Direction = Direction;
 	enemy.Speed = 8;
 		
+	//satate transition
 	shootsShooted++;
 	if (shootsShooted >= numShoots) {
 		time = movingTime;	
@@ -39,7 +42,6 @@ else if (state == enemyState.attacking) {
 		time = waitingTime;
 		state = enemyState.waiting;
 	}
-
 }
 
 image_angle = Direction;

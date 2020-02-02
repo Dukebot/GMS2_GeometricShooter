@@ -1,4 +1,7 @@
-if (global.pause) exit;
+if (global.pause) {
+	alarm[0]++;
+	exit;
+}
 
 if (Speed == 0) exit;
 
