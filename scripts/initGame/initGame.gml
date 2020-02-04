@@ -16,7 +16,7 @@ enum enemyState {
 }
 
 global.gameMode = GameMode.arcade;
-global.debug = true;
+global.debug = false;
 global.pause = false;
 
 //Deactivate mouse cursor to draw sprite instead
