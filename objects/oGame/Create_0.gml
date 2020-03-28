@@ -14,7 +14,7 @@ gameLost = false;
 time = 0;
 
 level = 1;
-levelUpFrec = 10*60;
+levelUpFrec = 30*60;
 
 //TODO move to the player
 playerLives = 3;

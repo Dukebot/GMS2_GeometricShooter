@@ -39,7 +39,7 @@ if (instance_exists(oPlayer)) with (oPlayer) {
 
 draw_set_color(c_white);
 
-//DRAW SCORE
+//DRAW SCORE AND LEVEL
 var scoreFont = font_add_sprite_ext(sFontScore, "0123456789", true, 2);
 {
 	draw_set_font(scoreFont);
@@ -48,6 +48,7 @@ var scoreFont = font_add_sprite_ext(sFontScore, "0123456789", true, 2);
 
 	//draw_text(room_width - 3, 25, string(playerScore));
 	draw_text_transformed(room_width/2, 25, string(playerScore), 2, 2, 0);
+	draw_text_transformed(room_width/2, 65, string(level), 2, 2, 0);
 }
 font_delete(scoreFont);
 
