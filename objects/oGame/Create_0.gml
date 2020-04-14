@@ -1,4 +1,3 @@
-show_debug_message("Creating oGame.");
 if (instance_number(oGame) > 1) {
 	show_error("More than 1 oGame has been instanciated.", 1);
 }

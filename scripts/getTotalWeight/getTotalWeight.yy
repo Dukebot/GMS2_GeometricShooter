@@ -1,8 +1,8 @@
 {
-    "id": "adb5b143-746c-43b9-810f-8798d85a7340",
+    "id": "d7e8bd92-04ef-401e-9937-fd5b810f7e82",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "getRandomEnemy",
+    "name": "getTotalWeight",
     "IsCompatibility": false,
     "IsDnD": false
 }

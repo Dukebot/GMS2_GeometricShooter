@@ -1,4 +1,7 @@
-//if (y < 100) y = 100;
+//Simple enemy state machine
+enum enemyState {
+	moving, waiting, attacking
+}
 
 Speed = 0;
 Direction = random(360);

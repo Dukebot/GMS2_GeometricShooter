@@ -59,17 +59,11 @@ if (global.debug) {
 	
 	draw_set_halign(fa_left);
 	
-	draw_text(margin, marginY+margin*1, "Level " + string(level));
-	draw_text(margin, marginY+margin*2, "Time " + string(time/60));
-	draw_text(margin, marginY+margin*3, "Kills " + string(playerEnemiesKilled));
-	draw_text(margin, marginY+margin*4, "Enemy Speed " + string(enemySpawner.enemySpeed));
-	draw_text(margin, marginY+margin*5, "Enemy SpawnRate (s) " + string(enemySpawner.enemySpawnRate/60));
+	draw_text(margin, marginY + margin*1, "Level " + string(level));
+	draw_text(margin, marginY + margin*2, "Time " + string(time/60));
+	draw_text(margin, marginY + margin*3, "Kills " + string(playerEnemiesKilled));
+	draw_text(margin, marginY + margin*4, "Enemy Speed " + string(enemySpawner.enemySpeed));
+	draw_text(margin, marginY + margin*5, "Enemy SpawnRate (s) " + string(enemySpawner.enemySpawnRate/60));
 	
-	with (oEnemyController) {
-		draw_text(margin, marginY+margin*7, "Cercles " + string(cercles));
-		draw_text(margin, marginY+margin*8, "triangles " + string(triangles));
-		draw_text(margin, marginY+margin*9, "Squares " + string(squares));
-		draw_text(margin, marginY+margin*10, "Pentagons " + string(pentagons));
-		draw_text(margin, marginY+margin*11, "Hexagons " + string(hexagons));
-	}
+	drawSpawnedEnemiesInfo(margin, marginY);
 }

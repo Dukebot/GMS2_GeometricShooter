@@ -1,7 +1,11 @@
+///@return enemy
 var enemy;
-	
-if (random(1) < 0.5) {
-	//Crecle
+
+//Calculate enemy type to spawn
+var enemyType = getEnemyTypeToSpawn(enemyTable);
+
+//Get the enemy object to spawn
+if (enemyType == EnemyType.cercle) {
 	enemy = choose(
 		oEnemy1, oEnemy1, oEnemy1, oEnemy1, oEnemy1, 
 		oEnemy2, oEnemy2, oEnemy2, oEnemy2, oEnemy2,
@@ -10,32 +14,28 @@ if (random(1) < 0.5) {
 	);
 	oEnemyController.cercles++;
 } 
-else if (random(1) < 0.5) {
-	//triangle	
+else if (enemyType == EnemyType.triangle) {
 	enemy = choose(
 		oEnemyTriangle, oEnemyTriangle, oEnemyTriangle, oEnemyTriangle, oEnemyTriangle,
 		oEnemyTriangleTeledirigido, oEnemyTriangleTeledirigido, oEnemyTriangleTeledirigido,
 	);
 	oEnemyController.triangles++;
 } 
-else if (random(1) < 0.5) {
-	//square
+else if (enemyType == EnemyType.square) {
 	enemy = choose(
 		oEnemySquare, oEnemySquare,
 		oEnemySquareElite,
 	);
 	oEnemyController.squares++;
 }
-else if (random(1) < 0.5) {
-	//pentagon
+else if (enemyType == EnemyType.pentagon) {
 	enemy = choose(
 		oEnemyPentagon, oEnemyPentagon, oEnemyPentagon, oEnemyPentagon,
 		oEnemyPentagonElite,
 	);
 	oEnemyController.pentagons++;
 }
-else {
-	//hexagon
+else if (enemyType == EnemyType.hexagon) {
 	enemy = choose(
 		oEnemyHexagon, oEnemyHexagon, oEnemyHexagon, oEnemyHexagon,
 		oEnemyHexagonElite,

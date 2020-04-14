@@ -1,8 +1,8 @@
 {
-    "id": "adb5b143-746c-43b9-810f-8798d85a7340",
+    "id": "36bdb5c8-12bf-45c1-810f-ce4c1d6e415f",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "getRandomEnemy",
+    "name": "increaseDifficulty",
     "IsCompatibility": false,
     "IsDnD": false
 }

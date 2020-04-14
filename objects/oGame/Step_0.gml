@@ -15,13 +15,7 @@ time++;
 ///INCREASE LEVEL AND DIFFICULTY OF THE GAME
 if (time > level*levelUpFrec) {
 	level++;
-		
-	with (enemySpawner) {
-		// enemies move faster
-		enemySpeed += enemySpeedInc;
-		// enemies spawn faster
-		enemySpawnRate *= enemySpawnRateInc;
-	}
+	increaseDifficulty(level);
 }
 	
 //UPDATE PLAYER SCORE

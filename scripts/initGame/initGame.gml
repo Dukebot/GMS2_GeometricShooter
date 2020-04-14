@@ -10,13 +10,8 @@ enum GameMode {
 	arcade, time
 }
 
-//Simple enemy state machine
-enum enemyState {
-	moving, waiting, attacking
-}
-
 global.gameMode = GameMode.arcade;
-global.debug = false;
+global.debug = true;
 global.pause = false;
 
 //Deactivate mouse cursor to draw sprite instead
